@@ -18,7 +18,8 @@
 
 ## About
 
-I build native Linux desktop applications — not Electron wrappers, not cross-platform compromises. My stack is Rust for the core logic and GTK4 with Libadwaita for GUI, following GNOME Human Interface Guidelines so the applications feel like they belong on the desktop rather than being ported onto it.
+I build native Linux desktop applications — not Electron wrappers, not a cross-platform port.
+My stack is Rust for the core logic and GTK4 with Libadwaita for GUI, following GNOME Human Interface Guidelines so the applications feel like they belong on the desktop rather than being ported onto it.
 
 Most of my projects are GUI-first — native GTK4 and Libadwaita applications built for the GNOME desktop. For select projects where it makes sense (headless environments, scripting, automation), I also ship a CLI counterpart sharing the same core library, so the GUI stays a shell over the engine rather than being the engine itself.
 
