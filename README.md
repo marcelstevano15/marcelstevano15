@@ -4,8 +4,6 @@
 
 ### Native Linux Desktop Engineer — Rust · GTK4 · Libadwaita
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=3584E4&center=true&vCenter=true&width=760&lines=Rust+Systems+Engineer;GTK4+%26+Libadwaita+GUI+Engineer;Linux+Desktop+%26+CLI+Tooling;Building+Native+GNOME+Applications)](https://git.io/typing-svg)
-
 <p>
 <img src="https://img.shields.io/badge/status-actively--building-3584E4?style=flat-square"/>
 <img src="https://img.shields.io/badge/platform-Linux%20%2F%20GNOME-2ec27e?style=flat-square"/>
@@ -18,8 +16,7 @@
 
 ## About
 
-I build native Linux desktop applications — not Electron wrappers, not a cross-platform port.
-My stack is Rust for the core logic and GTK4 with Libadwaita for GUI, following GNOME Human Interface Guidelines so the applications feel like they belong on the desktop rather than being ported onto it.
+I build native Linux desktop applications — not Electron wrappers, not a cross-platform port. My stack is Rust for the core logic and GTK4 with Libadwaita for GUI, following GNOME Human Interface Guidelines so the applications feel like they belong on the desktop rather than being ported onto it.
 
 Most of my projects are GUI-first — native GTK4 and Libadwaita applications built for the GNOME desktop. For select projects where it makes sense (headless environments, scripting, automation), I also ship a CLI counterpart sharing the same core library, so the GUI stays a shell over the engine rather than being the engine itself.
 
@@ -31,10 +28,22 @@ Most of my projects are GUI-first — native GTK4 and Libadwaita applications bu
 
 ---
 
+## Also Building: Windows Shortcut Tooling (AutoHotkey)
+
+Outside my main Linux/Rust work, I create and maintain keyboard shortcut and workflow utilities for Windows using AutoHotkey — specifically targeting legacy systems (Windows XP/7) that never received the modern shortcut sets Microsoft introduced in later versions of Windows.
+
+The idea behind this track: an operating system's interaction model shouldn't feel frozen just because the OS itself has stopped receiving updates. If a shortcut exists on a newer Windows release and there's no technical reason it couldn't exist on an older one, I build it and back-port it myself.
+
+**Example project:** [Anachrokey](https://github.com/marcelstevano15/Anachrokey) — brings Windows 7/8.1/10-era shortcuts (window snapping, Quick Link menu, clipboard history, screenshot tools) back to Windows XP SP3, distributed as a standalone compiled `.exe` with no installer or runtime dependency.
+
+This is a smaller, separate track from my native GNOME work — different language, different platform, different audience — but it comes from the same root motivation: making an operating system feel complete, regardless of how old or new it is.
+
+---
+
 ## Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=rust,linux,git,bash,neovim"/>
+<img src="https://skillicons.dev/icons?i=rust,linux,git,bash,neovim,windows"/>
 </p>
 
 <p align="center">
@@ -42,6 +51,7 @@ Most of my projects are GUI-first — native GTK4 and Libadwaita applications bu
 <img src="https://img.shields.io/badge/Libadwaita-4A86CF?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Tantivy-D4A017?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/systemd-facfc9?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/AutoHotkey-334455?style=for-the-badge&logo=autohotkey&logoColor=white"/>
 </p>
 
 | Layer | Tools |
@@ -52,6 +62,7 @@ Most of my projects are GUI-first — native GTK4 and Libadwaita applications bu
 | **Search / Indexing** | Tantivy (full-text search engine, embedded) |
 | **System Integration** | systemd journal (`journalctl` / `sd-journal` bindings), D-Bus |
 | **Packaging** | Multi-distro install scripts (`.deb`, `.rpm`-aware, generic `install.sh`) |
+| **Windows Tooling** | AutoHotkey 1.1 — shortcut/workflow utilities for legacy Windows (XP/7) |
 | **Version Control** | Git |
 
 ---
@@ -69,6 +80,6 @@ Most of my projects are GUI-first — native GTK4 and Libadwaita applications bu
 
 <div align="center">
 
-*Built on Linux, for Linux — native by design..*
+*Built on Linux, for Linux — native by design.*
 
 </div>
